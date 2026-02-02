@@ -1,0 +1,94 @@
+{
+  "1": [
+    {
+      "subject": "Programming for Problem Solving (C)",
+      "skills": ["c", "logic building", "algorithms"]
+    },
+    {
+      "subject": "Engineering Mathematics-I/II",
+      "skills": ["analytical thinking", "logical reasoning"]
+    },
+    {
+      "subject": "Soft Skills & Professional Comm.",
+      "skills": ["communication", "aptitude"]
+    }
+  ],
+  "2": [
+    {
+      "subject": "Data Structures",
+      "skills": ["dsa", "c++", "problem solving"]
+    },
+    {
+      "subject": "Object Oriented Techniques (Java)",
+      "skills": ["oops", "java", "logic building"]
+    },
+    {
+      "subject": "Operating Systems",
+      "skills": ["operating systems", "linux", "c"]
+    },
+    {
+      "subject": "Python Programming",
+      "skills": ["python", "data handling"]
+    },
+    {
+      "subject": "Engineering Mathematics-IV",
+      "skills": ["analytical thinking", "logical reasoning", "satistics"]
+    },
+    {
+      "subject": "Theory of Automata and Formal Languages",
+      "skills": ["analyze", "design compiler", "verify algorithms"]
+    },
+    {
+      "subject": "Technical Communication",
+      "skills": ["technical writing", "communication", "problem solving"]
+    },
+    {
+      "subject": "Discrete Structures & Theory of Logic",
+      "skills": ["logical reasoning", "aptitude"]
+    }
+  ],
+  "3": [
+    {
+      "subject": "Database Management Systems",
+      "skills": ["dbms", "sql", "data modeling"]
+    },
+    {
+      "subject": "Design and Analysis of Algorithms",
+      "skills": ["algorithms", "dsa", "dynamic programming"]
+    },
+    {
+      "subject": "Web Technology",
+      "skills": ["html", "css", "javascript", "full stack"]
+    },
+    {
+      "subject": "Computer Networks",
+      "skills": ["networking", "tcp/ip"]
+    },
+    {
+      "subject": "Machine Learning Techniques",
+      "skills": ["machine learning", "python", "data science"]
+    },
+    {
+      "subject": "Data Analytics",
+      "skills": ["sql", "dbms", "satistical analysis"]
+    },
+    {
+      "subject": "Software Engineering",
+      "skills": ["agile", "testing", "project management"]
+    }
+  ],
+  "4": [
+    {
+      "subject": "Cloud Computing (Elective)",
+      "skills": ["cloud", "aws", "azure"]
+    },
+    {
+      "subject": "Project & Industrial Training",
+      "skills": ["system design", "git", "react", "django", "teamwork"]
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "skills": ["logic building", "problem solving"]
+    }
+  ]
+}
