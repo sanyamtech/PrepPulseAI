@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "TCS",
+    "skills": ["java", "sql"],
+    "min_cgpa": 7.0,
+    "type": "Service",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "name": "Google",
+    "skills": ["python", "algorithms", "distributed systems"],
+    "min_cgpa": 8.5,
+    "type": "Product",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 3,
+    "name": "Infosys",
+    "skills": ["c++", "python", "basic networking"],
+    "min_cgpa": 6.5,
+    "type": "Service",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "name": "Amazon",
+    "skills": ["java", "data structures", "aws"],
+    "min_cgpa": 8.0,
+    "type": "Product",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 5,
+    "name": "Tech Mahindra",
+    "skills": ["technical knowlegde", "c++", "python"],
+    "min_cgpa": 7.0,
+    "type": "Service",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "name": "Wipro",
+    "skills": ["communication", "python", "data analysis"],
+    "min_cgpa": 7.0,
+    "type": "Service",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "name": "Accenture",
+    "skills": ["communication", "cloud computing", "sql"],
+    "min_cgpa": 7.0,
+    "type": "Service",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "name": "HCL",
+    "skills": ["java", "python", "cloud computing"],
+    "min_cgpa": 7.5,
+    "type": "Service",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "name": "Paytm",
+    "skills": ["data structure", "algorithms", "system design", "java", "python"],
+    "min_cgpa": 7.0,
+    "type": "Product",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "name": "Deloitte",
+    "skills": ["communication", "java", "python", "data structures", "sql", "oops"],
+    "min_cgpa": 7.5,
+    "type": "Service",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "name": "Juspay",
+    "skills": ["data structures", "algorithms", "python", "java", "sql"],
+    "min_cgpa": 7.0,
+    "type": "Startup",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "name": "Cognizant",
+    "skills": ["oops", "data structures", "algorithms", "java", "c++", "sql"],
+    "min_cgpa": 7.0,
+    "type": "Service",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "name": "IBM",
+    "skills": ["communication", "python", "node.js", "sdlc", "operating systems", "dbms"],
+    "min_cgpa": 7.0,
+    "type": "Product",
+    "difficulty": "Medium"
+  }
+]
