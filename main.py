@@ -1,9 +1,7 @@
 import streamlit as st
-
-
 import json
 
-with open("data/companies.json") as f:
+with open("companies.json") as f:
     COMPANIES = json.load(f)
 
 
@@ -13,7 +11,6 @@ from resume_checker import (
 )
 
 
-# ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="Placement Guidance System",
     layout="wide"
