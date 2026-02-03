@@ -8,7 +8,7 @@
         "SQL",
         "Web APIs"
       ],
-      "min_cgpa": "7.0"
+      "min_cgpa": 7.0
     },
     {
       "name": "Paytm",
@@ -17,7 +17,7 @@
         "Backend Development",
         "Payments Domain"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Coforge Limited",
@@ -26,7 +26,7 @@
         "Problem Solving",
         "Databases"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Bharti Airtel Ltd.",
@@ -35,7 +35,7 @@
         "Networking",
         "Python"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "TATA Consultancy Services (TCS)",
@@ -44,7 +44,7 @@
         "SQL",
         "Communication Skills"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Sopra Steria India Limited",
@@ -53,7 +53,7 @@
         "Web Services",
         "Team Collaboration"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "LTIMindtree Limited",
@@ -62,7 +62,7 @@
         "DevOps Principles",
         "Problem Solving"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "HCL Technologies Ltd.",
@@ -71,7 +71,7 @@
         "Operating Systems",
         "Networks"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "OneBanc Technologies Pvt. Ltd.",
@@ -80,7 +80,7 @@
         "JavaScript",
         "APIs"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Samsung India Electronics Pvt. Ltd.",
@@ -89,7 +89,7 @@
         "Linux",
         "Hardware/Software Integration"
       ],
-      "min_cgpa": "7.0"
+      "min_cgpa": 7.0
     },
     {
       "name": "Polycab India Limited",
@@ -97,7 +97,7 @@
         "Electrical Engineering Fundamentals",
         "Quality Testing"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Planify Capital Limited",
@@ -106,7 +106,7 @@
         "Excel",
         "Analytical Thinking"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Freecharge Payment Technologies Pvt. Ltd.",
@@ -115,7 +115,7 @@
         "Mobile Payments",
         "SQL"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Comviva Technologies Limited",
@@ -124,7 +124,7 @@
         "Java",
         "Database Concepts"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Capgemini Technology Services India Limited",
@@ -133,7 +133,7 @@
         "Automation Testing",
         "Client Communication"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Accenture",
@@ -142,7 +142,7 @@
         "Agile",
         "DevOps Tools"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Tech Mahindra",
@@ -150,7 +150,7 @@
         "Software Development Lifecycle",
         "Java/Python"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Airtel India",
@@ -159,7 +159,7 @@
         "Python",
         "Telecom Protocols"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Crowe Horwath IT Services LLP",
@@ -168,7 +168,7 @@
         "SQL",
         "Excel"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "CG Infinity (Cyber Group India Pvt. Ltd.)",
@@ -177,7 +177,7 @@
         "Python",
         "Network Security"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "i2V Systems Pvt. Ltd.",
@@ -186,7 +186,7 @@
         "C/C++",
         "Systems Design"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Eazy ERP Technologies Pvt. Ltd.",
@@ -195,7 +195,7 @@
         "JavaScript",
         "SQL"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "DCM Infotech Ltd.",
@@ -203,7 +203,7 @@
         "IT Consulting",
         "Database Management"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "BrightRays",
@@ -211,7 +211,7 @@
         "Software Concepts",
         "Web Development"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "FutureSoft India Pvt. Ltd.",
@@ -220,7 +220,7 @@
         "JavaScript",
         "SQL"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Uneecops Technologies Limited",
@@ -228,7 +228,7 @@
         "ERP Implementation",
         "SAP Basics"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Octa Byte AI Private Limited",
@@ -237,7 +237,7 @@
         "Python",
         "Pandas"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "One97 Communications Limited (Paytm)",
@@ -246,7 +246,7 @@
         "Node.js/Python",
         "Mobile APIs"
       ],
-      "min_cgpa": "6.5"
+      "min_cgpa": 6.5
     },
     {
       "name": "Cache Digitech Pvt. Ltd.",
@@ -254,7 +254,7 @@
         "Software Development",
         "QA Testing"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Keywords Studios India Private Limited",
@@ -262,7 +262,7 @@
         "Game Dev Tools",
         "Scripting"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "American EPAY Services Pvt. Ltd.",
@@ -271,7 +271,7 @@
         "SQL",
         "Java"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Rupeek Capital Private Limited",
@@ -280,7 +280,7 @@
         "Python",
         "Risk Models"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "ArdorIT Solutions INC",
@@ -289,7 +289,7 @@
         "APIs",
         "Database"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Urban Company",
@@ -298,7 +298,7 @@
         "User Experience",
         "APIs"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Planetspark | Winspark Innovations Learning Private Limited",
@@ -306,7 +306,7 @@
         "Edtech Platforms",
         "Frontend"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Prudentia Group LLC",
@@ -314,7 +314,7 @@
         "Data Analysis",
         "Business Intelligence"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Dhani Stocks Limited",
@@ -322,7 +322,7 @@
         "Fintech Platforms",
         "React/Backend"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Mahindra & Mahindra (Minda Corp)",
@@ -330,7 +330,7 @@
         "Automotive Systems",
         "Embedded C"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Shimadzu Analytical India Pvt. Ltd.",
@@ -338,7 +338,7 @@
         "Manufacturing Software",
         "Data Tools"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     },
     {
       "name": "Gamix Labs",
@@ -346,7 +346,7 @@
         "Game Dev",
         "Unity/Unreal"
       ],
-      "min_cgpa": "6.0"
+      "min_cgpa": 6.0
     }
   ]
 }
