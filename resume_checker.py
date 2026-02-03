@@ -84,7 +84,7 @@ def analyze_resume(uploaded_file, known_skills, required_skills):
     }
 
 
-def analyze_resume_base(uploaded_file):
+def analyze_resume_base(uploaded_file, known_skills):
     resume_text = extract_resume_text(uploaded_file)
     found_skills = extract_skills(resume_text, known_skills)
     sections = check_sections(resume_text)

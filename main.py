@@ -1,9 +1,8 @@
 import streamlit as st
 
-
 import json
 
-with open("data/companies.json") as f:
+with open("companies.json") as f:
     COMPANIES = json.load(f)
 
 
@@ -11,6 +10,11 @@ from resume_checker import (
     analyze_resume_base,
     match_resume_to_company
 )
+
+from placement import evaluate_company
+
+with open("curriculum.json") as f:
+    curriculum = json.load(f)
 
 
 # ---------------- PAGE CONFIG ----------------
@@ -137,16 +141,53 @@ with tabs[2]:
 with tabs[3]:
     st.subheader("Placement Readiness")
 
-    if year == "Select":
-        st.warning("Select your academic year from the sidebar.")
+    if year == "Select" or not skills:
+        st.warning("Please select academic year and enter skills.")
     else:
+        # ---------------- STUDENT OBJECT ----------------
+        student = {
+            "year": year,
+            "cgpa": cgpa,
+            "skills": [s.strip().lower() for s in skills.split(",") if s.strip()],
+            "experience_months": experience,
+            "projects": 0
+        }
+
+        results = []
+
+        for company in COMPANIES:
+            result = evaluate_company(student, company, curriculum)
+            results.append({
+                "company": company["name"],
+                **result
+            })
+
+        eligible_results = [r for r in results if r["eligible"]]
+        eligible_results.sort(key=lambda x: x["fit_score"], reverse=True)
+
         col1, col2, col3 = st.columns(3)
 
-        col1.metric("Fit Score", "72%")
-        col2.metric("Placement Probability", "0.64")
-        col3.metric("Resume Strength", "Medium")
+        if eligible_results:
+            best = eligible_results[0]
+            col1.metric("Best Fit Score", f"{best['fit_score']}%")
+            col2.metric("Eligible Companies", len(eligible_results))
+            col3.metric("Top Company", best["company"])
+        else:
+            col1.metric("Fit Score", "0%")
+            col2.metric("Eligible Companies", 0)
+            col3.metric("Status", "Not Eligible")
 
-        st.info("Scores are adjusted based on your academic year and curriculum.")
+        st.divider()
+        st.subheader("Company-wise Placement Evaluation")
+
+        for r in eligible_results:
+            st.markdown(f"### {r['company']}")
+            st.write(f"Fit Score: {r['fit_score']}%")
+            st.write("Missing Skills:", r["missing_skills"])
+            for reason in r["reasons"]:
+                st.info(reason)
+            st.divider()
+
 
 # ======================================================
 # STUDY
@@ -167,18 +208,3 @@ with tabs[4]:
             st.write("- OS, CN\n- Internships\n- Resume building")
         elif year == "4th Year":
             st.write("- SQL & system design\n- Interview prep\n- Company targeting")
-
-
-# from google import genai
-
-# # ⚠️ TEMPORARY: hard-coded API key (DO NOT COMMIT THIS)
-# API_KEY = "AIzaSyA8q-u9b6qqm8DfM5X-CYlDpDN308ZDwcE"
-
-# client = genai.Client(api_key=API_KEY)
-
-# response = client.models.generate_content(
-#     model="gemini-2.5-flash",
-#     contents="hello gemini "
-# )
-
-# print(response.text)
