@@ -1,15 +1,8 @@
 import streamlit as st
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> ada2e0f11496ba86a3e2ad1d4164dd9c91fa0cc7
-=======
->>>>>>> 86b3ad104c8dde43da9af2368aa9145391b6bad1
 import json
 
 with open("companies.json") as f:
-    COMPANIES = json.load(f)["companies"]
+    COMPANIES = json.load(f)
 
 
 from resume_checker import (
