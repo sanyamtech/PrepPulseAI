@@ -1,12 +1,15 @@
 import streamlit as st
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ada2e0f11496ba86a3e2ad1d4164dd9c91fa0cc7
+=======
+>>>>>>> 86b3ad104c8dde43da9af2368aa9145391b6bad1
 import json
 
 with open("companies.json") as f:
-    COMPANIES = json.load(f)
+    COMPANIES = json.load(f)["companies"]
 
 
 from resume_checker import (
@@ -115,7 +118,7 @@ with tabs[1]:
                 company["skills"]
             )
 
-            st.markdown(f"### {company['name']}")
+            st.markdown(f"### {company['company']}")
             st.metric("Skill Match", f"{result['match_percent']}%")
             st.write("Missing Skills:", result["missing_skills"])
             st.divider()
@@ -160,7 +163,7 @@ with tabs[3]:
         for company in COMPANIES:
             result = evaluate_company(student, company, curriculum)
             results.append({
-                "company": company["name"],
+                "company": company["company"],
                 **result
             })
 
