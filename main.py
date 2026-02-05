@@ -1,5 +1,4 @@
 import streamlit as st
-
 import json
 
 with open("companies.json") as f:
@@ -17,7 +16,6 @@ with open("curriculum.json") as f:
     curriculum = json.load(f)
 
 
-# ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="Placement Guidance System",
     layout="wide"
@@ -113,7 +111,7 @@ with tabs[1]:
                 company["skills"]
             )
 
-            st.markdown(f"### {company['name']}")
+            st.markdown(f"### {company['company']}")
             st.metric("Skill Match", f"{result['match_percent']}%")
             st.write("Missing Skills:", result["missing_skills"])
             st.divider()
@@ -158,7 +156,7 @@ with tabs[3]:
         for company in COMPANIES:
             result = evaluate_company(student, company, curriculum)
             results.append({
-                "company": company["name"],
+                "company": company["company"],
                 **result
             })
 
